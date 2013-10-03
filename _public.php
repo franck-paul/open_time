@@ -1,11 +1,16 @@
 <?php
-# ***** BEGIN LICENSE BLOCK *****
-# This is a (partial) theme for Dotclear2.
-# Copyright (c) 2007 Pep. (http://callmepep.org/blog/)
-# 
-# This is a GNU GPLv2 licensed work.
+# -- BEGIN LICENSE BLOCK ----------------------------------
+# This file is part of Open-Time, a theme for Dotclear 2.
 #
-# ***** END LICENSE BLOCK *****
+# Copyright (c) Franck Paul and contributors
+# carnet.franck.paul@gmail.com
+#
+# Licensed under the GPL version 2.0 license.
+# A copy of this license is available in LICENSE file or at
+# http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+# -- END LICENSE BLOCK ------------------------------------
+
+if (!defined('DC_RC_PATH')) { return; }
 
 $core->addBehavior('publicPrepend',array('behaviorCafeCremeTheme','publicPrepend'));
 
@@ -15,6 +20,4 @@ class behaviorCafeCremeTheme
 	{
 		$core->themes->loadModuleL10N($GLOBALS['__theme'],$GLOBALS['_lang'],'main');
 	}
-}	
-
-?>
+}
