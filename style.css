@@ -1,8 +1,8 @@
-/* Feuille de style vierge comportant les principales balises d'un 
+/* Feuille de style vierge comportant les principales balises d'un
 blog realise avec dotclear - Etablie par Kozlika pour la dcTeam
-le 7 janvier 2007. 
+le 7 janvier 2007.
 
-Licence : domaine public 
+Licence : domaine public
 
 */
 
@@ -35,7 +35,7 @@ body {
  	font-size : 76%;
  	font-family : "lucida grande", "gill sans", arial, sans-serif;
 }
- 
+
 h1 { }
 h2 { }
 h3 { }
@@ -49,7 +49,7 @@ sup { }
 abbr, acronym { }
 
 blockquote, q { }
-blockquote { 
+blockquote {
 background:transparent url(images/quote.gif) no-repeat scroll left top;
 margin:1em;
 padding:0pt 0pt 0pt 70px;
@@ -71,7 +71,7 @@ fieldset {
 	margin: 0 0 0.5em;
 	padding: 0;
 }
-input { 
+input {
 	padding: 0.25em 0.6em;
 	border: 1px solid #594f4f;
 	background : #f7f7f7;
@@ -87,8 +87,8 @@ textarea {
 	width:95%;
 }
 
-a {	
-	color:#E5FCC2; 
+a {
+	color:#E5FCC2;
 	text-decoration : none;
 	outline: none;
 }
@@ -97,7 +97,7 @@ a:visited { }
 a:hover { }
 a:focus { }
 a[hreflang]:after {
-	content: "\0000a0[" attr(hreflang) "]"; 
+	content: "\0000a0[" attr(hreflang) "]";
 }
 a[hreflang|="fr"]:after {
 	content: "";
@@ -107,8 +107,8 @@ a[hreflang] {
 }
 
 a img { }
- 
-code, pre { 
+
+code, pre {
 	font: 1em "liberation mono", "Andale Mono", "DejaVu Sans Mono", "Courier New", Courier, monospace;
 }
 code {
@@ -118,7 +118,7 @@ code {
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 }
-pre { 
+pre {
 	overflow: scroll;
 	display: block;
 	border: solid 1px #561420;
@@ -132,8 +132,8 @@ pre {
 	white-space: -o-pre-wrap;    /* Opera 7 */
 	word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
- 
-hr { 
+
+hr {
 	border: 0 none;
 	height: 1px;
 	margin: 2em 10em;
@@ -142,27 +142,27 @@ hr {
 sup {
 	line-height: 1em;
 }
- 
+
 /* ------------------------------------------------------------
 	3. PAGE
 ------------------------------------------------------------- */
- 
-#page { 
+
+#page {
 }
 
- 
+
 /* ------------------------------------------------------------
 	4. HAUT DE PAGE
 ------------------------------------------------------------- */
 
-#top { 	
+#top {
 	background: transparent url('images/titre.png') no-repeat 50% 50%;
 	text-align : left;
 }
-#top h1 { 
+#top h1 {
 }
 #top h1 a {
-	color: #594f4f; 
+	color: #594f4f;
 	font-size: 0.8em;
 }
 
@@ -171,7 +171,7 @@ sup {
 	background: transparent url('images/portrait.png') no-repeat right bottom;
 	color: #e5fcc2;
 }
-#prelude a { 
+#prelude a {
 	color: #e5fcc2;
 }
 
@@ -190,7 +190,7 @@ sup {
  	text-align: justify;
 }
 #main a {
-	color:#594f4f; 
+	color:#594f4f;
 }
 
 #content { }
@@ -198,10 +198,10 @@ sup {
 #content-img {
 	color: #CCCCCC;
 }
-#content-img a { 
+#content-img a {
 	color: #e5fcc2;
 }
-#content-img a:hover { 
+#content-img a:hover {
 	color: #CCCCCC;
 }
 #content-img h2 {
@@ -218,7 +218,7 @@ sup {
 }
 
 #content-text { }
-#content-text h2 { 
+#content-text h2 {
  	min-height: 1.5em;
  	text-indent: 1em;
  	text-align: left;
@@ -238,7 +238,7 @@ sup {
 
 .content-inner { }
 
-.pagination { 
+.pagination {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -248,7 +248,7 @@ sup {
 	text-align: center;
 }
 
-#navlinks { 
+#navlinks {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -271,12 +271,12 @@ sup {
 	clear : both;
 }
 
-.day-date { 
+.day-date {
 display: none;
 }
 
 .post-title { }
-.post-info, .page-info { 
+.post-info, .page-info {
 font-style: italic;
 }
 .post-tags { }
@@ -292,10 +292,10 @@ padding:0pt 0pt 0pt 1.8em;
 background: transparent url('images/tag.png') no-repeat left top;
 }
 
-.post-excerpt { 
+.post-excerpt {
 line-height: 1.6em;
 }
-.post-content { 
+.post-content {
 line-height: 1.6em;
 }
 
@@ -318,30 +318,30 @@ text-align: right;
 
 .read-it { }
 
-.footnotes { 
+.footnotes {
 font-size: 0.9em;
 text-align: left;
 }
 .footnotes h4 { }
 
-#content-text .footnotes p { 
+#content-text .footnotes p {
 text-indent: 0;
 margin-top: 1.2em;
 }
 
 .post-info-co { }
 
-.comment_count { 
+.comment_count {
 margin:0pt 0pt 0pt 1.2em;
 padding:0pt 0pt 0pt 1.8em;
 background: transparent url('images/balloon.png') no-repeat left top;
 }
-.ping_count { 
+.ping_count {
 margin:0pt 0pt 0pt 1.2em;
 padding:0pt 0pt 0pt 1.8em;
 background: transparent url('images/chain.png') no-repeat left top;
 }
-.attach_count { 
+.attach_count {
 margin:0pt 0pt 0pt 1.2em;
 padding:0pt 0pt 0pt 1.8em;
 background: transparent url('images/box.png') no-repeat left top;
@@ -371,7 +371,7 @@ background: transparent url('images/box.png') no-repeat left top;
 #pr h3 { }
 #comment-form h3 { }
 
-#comments dl { 
+#comments dl {
 font-size:0.93em;
 line-height:1.5em;
 }
@@ -398,7 +398,7 @@ padding-left:3.5em;
 }
 
 
-#pings dl { 
+#pings dl {
 font-size:0.93em;
 line-height:1.5em;
 }
@@ -425,11 +425,11 @@ display:block;
 float:left;
 width:13em;
 }
-.field input { 
+.field input {
 border:1px solid #547980;
 padding:0.25em;
 }
-.field textarea { 
+.field textarea {
 border:1px solid #547980;
 padding:0.5em;
 }
@@ -470,7 +470,7 @@ padding:0.5em;
 /* boites du menu des widgets livres avec Dotclear */
 #search { }
 #search form { }
-#search input[type=text] { 
+#search input[type=text] {
 	background: #FCFCFC url(images/magnifier.png) no-repeat scroll 0.5em center;
 	border: 1px solid #FCFCFC;
 	margin-left:3.5em;
@@ -508,8 +508,8 @@ padding:0.5em;
 .tags { }
 .tags ul { }
 .tags li { }
-/* a completer separement ou globalement pour le sidebar et la page 
-specifique des tags avec les differentes class des tags en fonction 
+/* a completer separement ou globalement pour le sidebar et la page
+specifique des tags avec les differentes class des tags en fonction
 de leur frequence - voir 9/ classes communes */
 
 
@@ -533,7 +533,7 @@ de leur frequence - voir 9/ classes communes */
 /* class sur les liens rss (on peut y placer l'icone
 feed.png a piocher dans le theme par defaut par ex.) */
 
-.feed { 
+.feed {
 	background: transparent url(images/feed.png) no-repeat left bottom;
 	padding-left: 1.8em;
 	margin-left: -0.3em;
@@ -542,7 +542,7 @@ feed.png a piocher dans le theme par defaut par ex.) */
 
 /* tags dans le sidebar et dans la page les regroupant
 (exemple ici pour un nuage) */
-.dc-tags #content ul li, .dc-tags #content ul li a, 
+.dc-tags #content ul li, .dc-tags #content ul li a,
 .tags ul li, .tags ul li a {
 	display : inline;
 	width : auto;
@@ -584,7 +584,7 @@ feed.png a piocher dans le theme par defaut par ex.) */
 .error li {
 	list-style : square;
 	}
-	
+
 /* exemples de ceux que j'ajoute souvent */
 .left { float: left; margin-right : 1em; }
 .right { float: right; margin-left : 1em; }
@@ -598,7 +598,7 @@ feed.png a piocher dans le theme par defaut par ex.) */
 
 /* ------------------------------------------------------------
 	11. PAGES SPECIFIQUES
-	j'indique le marqueur du body, a completer pour cibler 
+	j'indique le marqueur du body, a completer pour cibler
 	plus precisement (cf l'exemple ci-dessus pour les tags)
 ------------------------------------------------------------- */
 
@@ -615,18 +615,18 @@ feed.png a piocher dans le theme par defaut par ex.) */
 .dc-category { }
 .dc-archive { }
 .dc-archive-month { }
-.dc-archive-month #content-text p.post-content { 
+.dc-archive-month #content-text p.post-content {
     margin-left: 3em;
     font-size:0.9em;
     line-height:1.5em;
 }
-.dc-archive-month #content-text p.post-info { 
+.dc-archive-month #content-text p.post-info {
     text-align: left;
     font-style: normal;
     margin-left: 3em;
     margin-bottom: -0.5em;
 }
-.dc-archive-month #content-text p.post-info-co { 
+.dc-archive-month #content-text p.post-info-co {
     text-align: left;
     margin-left: 2em;
 }
@@ -641,7 +641,7 @@ feed.png a piocher dans le theme par defaut par ex.) */
   12. ET POUR FINIR NE PAS OUBLIER LES CLEARERS
 	ici ceux le plus souvent necessaires
 --------------------------------------------------- */
-.post, .post-content, .footnotes, .attachments, 
+.post, .post-content, .footnotes, .attachments,
 .post-info-co, #comments, #footer {
     clear:both;
     }
