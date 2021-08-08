@@ -18,7 +18,7 @@ $this->registerModule(
     'Franck Paul',                                           // Author
     '1.7',                                                   // Version
     [
-        'requires' => [['core', '2.13']], // Dependencies
+        'requires' => [['core', '2.19']], // Dependencies
         'type'     => 'theme'            // Type
     ]
 );
