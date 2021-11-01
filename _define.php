@@ -23,6 +23,6 @@ $this->registerModule(
 
         'details'    => 'https://open-time.net/?q=open-time',       // Details URL
         'support'    => 'https://github.com/franck-paul/open-time', // Support URL
-        'repository' => 'https://raw.githubusercontent.com/franck-paul/open-time/main/dcstore.xml'
+        'repository' => 'https://raw.githubusercontent.com/franck-paul/open-time/master/dcstore.xml'
     ]
 );
