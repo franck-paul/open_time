@@ -13,16 +13,16 @@ if (!defined('DC_RC_PATH')) {
 }
 
 $this->registerModule(
-    'Open-Time',                                             // Name
-    'Deviation Cafe-Creme, Structure Aorakit-1B de Kozlika', // Description
-    'Franck Paul',                                           // Author
-    '1.7',                                                   // Version
+    'Open-Time',
+    'Deviation Cafe-Creme, Structure Aorakit-1B de Kozlika',
+    'Franck Paul',
+    '2.0',
     [
-        'requires' => [['core', '2.19']], // Dependencies
-        'type'     => 'theme',            // Type
+        'requires' => [['core', '2.24']],
+        'type'     => 'theme',
 
-        'details'    => 'https://open-time.net/?q=open-time',       // Details URL
-        'support'    => 'https://github.com/franck-paul/open-time', // Support URL
-        'repository' => 'https://raw.githubusercontent.com/franck-paul/open-time/master/dcstore.xml'
+        'details'    => 'https://open-time.net/?q=open-time',
+        'support'    => 'https://github.com/franck-paul/open-time',
+        'repository' => 'https://raw.githubusercontent.com/franck-paul/open-time/master/dcstore.xml',
     ]
 );
