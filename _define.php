@@ -1,6 +1,6 @@
 <?php
 /**
- * @brief open-time, a theme for Dotclear 2
+ * @brief open_time, a theme for Dotclear 2
  *
  * @package Dotclear
  * @subpackage Themes
@@ -8,21 +8,17 @@
  * @copyright Franck Paul (carnet.franck.paul@gmail.com)
  * @copyright GPL-2.0
  */
-if (!defined('DC_RC_PATH')) {
-    return;
-}
-
 $this->registerModule(
     'Open-Time',
     'Deviation Cafe-Creme, Structure Aorakit-1B de Kozlika',
     'Franck Paul',
-    '2.0',
+    '3.0',
     [
-        'requires' => [['core', '2.24']],
+        'requires' => [['core', '2.26']],
         'type'     => 'theme',
 
-        'details'    => 'https://open-time.net/?q=open-time',
-        'support'    => 'https://github.com/franck-paul/open-time',
-        'repository' => 'https://raw.githubusercontent.com/franck-paul/open-time/master/dcstore.xml',
+        'details'    => 'https://open-time.net/?q=open_time',
+        'support'    => 'https://github.com/franck-paul/open_time',
+        'repository' => 'https://raw.githubusercontent.com/franck-paul/open_time/master/dcstore.xml',
     ]
 );
