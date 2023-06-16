@@ -1,11 +1,11 @@
 <modules xmlns:da="http://dotaddict.org/da/">
   <module id="open_time">
     <name>Open-Time</name>
-    <version>2.0</version>
+    <version>3.0</version>
     <author>Franck Paul</author>
     <desc>Deviation Cafe-Creme, Structure Aorakit-1B de Kozlika</desc>
-    <file>https://github.com/franck-paul/open_time/releases/download/2.0/theme-open_time-2.0.zip</file>
-    <da:dcmin>2.24</da:dcmin>
+    <file>https://github.com/franck-paul/open_time/releases/download/3.0/theme-open_time-3.0.zip</file>
+    <da:dcmin>2.26</da:dcmin>
     <da:details>https://open_time.net/?q=open_time</da:details>
     <da:support>https://github.com/franck-paul/open_time</da:support>
   </module>
