@@ -12,7 +12,7 @@ $this->registerModule(
     'Open-Time',
     'Deviation Cafe-Creme, Structure Aorakit-1B de Kozlika',
     'Franck Paul',
-    '5.0',
+    '5.1',
     [
         'requires' => [['core', '2.28']],
         'type'     => 'theme',
