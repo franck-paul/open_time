@@ -9,20 +9,24 @@
  * @copyright Franck Paul (contact@open-time.net)
  * @copyright GPL-2.0
  */
-$this->registerModule(
-    'Open-Time',
-    'Deviation Cafe-Creme, Structure Aorakit-1B de Kozlika',
-    'Franck Paul',
-    '7.2',
-    [
-        'date'     => '2026-04-05T11:55:56+0200',
-        'requires' => [['core', '2.36']],
-        'type'     => 'theme',
-        'overload' => true,
+declare(strict_types=1);
 
-        'details'    => 'https://open-time.net/?q=open_time',
-        'support'    => 'https://github.com/franck-paul/open_time',
-        'repository' => 'https://raw.githubusercontent.com/franck-paul/open_time/main/dcstore.xml',
-        'license'    => 'gpl2',
-    ]
-);
+if (isset($this) && is_object($this) && method_exists($this, 'registerModule') && isset($this->id) && is_string($this->id)) {
+    $this->registerModule(
+        'Open-Time',
+        'Deviation Cafe-Creme, Structure Aorakit-1B de Kozlika',
+        'Franck Paul',
+        '7.2',
+        [
+            'date'     => '2026-04-05T11:55:56+0200',
+            'requires' => [['core', '2.36']],
+            'type'     => 'theme',
+            'overload' => true,
+
+            'details'    => 'https://open-time.net/?q=open_time',
+            'support'    => 'https://github.com/franck-paul/open_time',
+            'repository' => 'https://raw.githubusercontent.com/franck-paul/open_time/main/dcstore.xml',
+            'license'    => 'gpl2',
+        ]
+    );
+}
